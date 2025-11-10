@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ca">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Opinions i contacte sobre Cyberpunk: Edgerunners">
+    <meta name="author" content="Shaila Martínez González de Molina">
+    <meta name="keywords" content="Cyberpunk Edgerunners, opinió, contacte, formulari, anime">
+    <title>Opinió - Cyberpunk: Edgerunners</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Cyberpunk: Edgerunners</h1>
+        <p>Comparteix la teva opinió o contacta amb nosaltres</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="./inici.html">Inici</a></li>
+            <li><a href="./director.html">Director</a></li>
+            <li><a href="./personatges.html">Personatges</a></li>
+            <li><a href="./cinemes.html">Cinemes/Streaming</a></li>
+            <li><a href="./media.html">Media</a></li>
+            <li><a href="./opinio.html" class="active">Opinió</a></li>
+            <li><a href="./links.html">Links</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section style="text-align: center; max-width: 700px; margin: 2rem auto;">
+            <h2>Contacta amb nosaltres</h2>
+            <p>Si vols donar-nos la teva opinió sobre la sèrie o tens alguna pregunta, omple el formulari següent:</p>
+
+            <form action="#" method="post" style="margin-top: 24px;">
+                <label for="nom">Nom i cognoms:</label>
+                <input type="text" id="nom" name="nom" placeholder="Escriu el teu nom" required>
+
+                <label>Sexe:</label>
+                <div style="display: flex; gap: 15px; justify-content: center;">
+                    <input type="radio" id="sexe-home" name="sexe" value="home" required>
+                    <label for="sexe-home">Home</label>
+
+                    <input type="radio" id="sexe-dona" name="sexe" value="dona">
+                    <label for="sexe-dona">Dona</label>
+
+                    <input type="radio" id="sexe-altres" name="sexe" value="altres">
+                    <label for="sexe-altres">Altres</label>
+                </div>
+
+
+                <label for="edat">Edat:</label>
+                <input type="number" id="edat" name="edat" min="10" max="120" placeholder="Escriu la teva edat">
+
+                <label for="email">Correu electrònic:</label>
+                <input type="email" id="email" name="email" placeholder="exemple@email.com" required>
+
+                <label for="tema">Assumpte:</label>
+                <select id="tema" name="tema" required>
+                    <option value="">Selecciona una opció...</option>
+                    <option>Opinió sobre la sèrie</option>
+                    <option>Opinió sobre els personatges</option>
+                    <option>Comentari tècnic o error</option>
+                    <option>Altres</option>
+                </select>
+
+                <label for="missatge">Missatge:</label>
+                <textarea id="missatge" name="missatge" rows="5" placeholder="Escriu el teu missatge aquí..."
+                    required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+
+            <aside style="margin-top: 2rem; padding: 1rem; border-radius: 8px;">
+                <h3>Altres maneres de contactar</h3>
+                <p>Pots escriure’ns a: <strong>info@edgerunners.cat</strong></p>
+                <p>O segueix-nos a les xarxes socials per més novetats!</p>
+            </aside>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Shaila Martínez González de Molina - 1r ASIX</p>
+    </footer>
+</body>
+
+</html>
+
+<!--Shaila Martínez 1rASIX-->
