@@ -8,22 +8,29 @@
     <meta name="author" content="Shaila Martínez González de Molina">
     <meta name="keywords" content="Cyberpunk Edgerunners, imatges, videos, tràiler, galeria">
     <title>Cyberpunk: Edgerunners - Media</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estils/style.css">
 </head>
 
 <body>
     <header>
         <h1>Cyberpunk: Edgerunners</h1>
-        <p>Galeria multimèdia</p>
+        <p id="header-sub">Galeria multimèdia</p>
     </header>
 
     <nav>
-        <ul>
+        <ul class="menu">
             <li><a href="./inici.html">Inici</a></li>
-            <li><a href="./director.html">Director</a></li>
-            <li><a href="./personatges.html">Personatges</a></li>
+
+            <li class="dropdown">
+                <a href="#">Contingut ▾</a>
+                <ul class="submenu">
+                    <li><a href="./director.html">Director</a></li>
+                    <li><a href="./personatges.html">Personatges</a></li>
+                    <li><a href="./media.html" class="active">Media</a></li>
+                </ul>
+            </li>
+
             <li><a href="./cinemes.html">Cinemes/Streaming</a></li>
-            <li><a href="./media.html" class="active">Media</a></li>
             <li><a href="./opinio.html">Opinió</a></li>
             <li><a href="./links.html">Links</a></li>
         </ul>
@@ -64,7 +71,6 @@
                     <video controls style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
                         <source src="./video/video1.mp4" type="video/mp4">
                         <track src="subtitols.vtt" kind="subtitles" srclang="ca" label="Català">
-                        El teu navegador no admet el vídeo HTML5.
                     </video>
                     <p>
                         David parla amb Rebecca en un moment motivacional.
@@ -76,7 +82,6 @@
                     <video controls style="width: 100%; max-width: 800px; display: block; margin: 0 auto;">
                         <source src="./video/video2.mp4" type="video/mp4">
                         <track src="subtitols.vtt" kind="subtitles" srclang="ca" label="Català">
-                        El teu navegador no admet el vídeo HTML5.
                     </video>
                     <p>
                         Una escena on David i Lucy conversen en un moment on ell està debilitat.
